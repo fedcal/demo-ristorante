@@ -1,0 +1,36 @@
+{
+  "faq": [
+    {
+      "domanda": "Come posso prenotare un tavolo?",
+      "risposta": "Puoi prenotare tramite il form sul sito, chiamando il +39 080 555 9876 o via WhatsApp al +39 347 9876 543. Il lunedì siamo chiusi. Per gruppi superiori a 8 persone è richiesta prenotazione almeno 48h prima."
+    },
+    {
+      "domanda": "Offrite menu fissi degustazione?",
+      "risposta": "Sì, proponiamo tre menu: 'Degustazione del Mare' (5 portate €75, con vini €105), 'Terra e Mare' (4 portate €55, con vini €80) e 'Pranzo del Lungomare' (2 portate €28, solo pranzo mar-ven). Tutti abbinabili con la selezione vini di Giulia, la nostra sommelier AIS."
+    },
+    {
+      "domanda": "Il pesce è fresco o surgelato?",
+      "risposta": "Lavoriamo solo con pesce fresco proveniente dal mercato ittico di Bari ogni mattina prima delle 07:00. I fornitori principali sono pescatori locali del litorale barese con cui collaboriamo dal 2001. Per motivi di normativa sanitaria (Reg. CE 853/2004), alcune preparazioni crude (carpacci, tartare, crudi) richiedono abbattimento preventivo, che eseguiamo in-house."
+    },
+    {
+      "domanda": "Gestite allergie e intolleranze alimentari?",
+      "risposta": "Assolutamente sì. Ogni piatto del menu riporta i principali allergeni. Il nostro staff è formato per gestire richieste specifiche. Vi chiediamo di segnalare qualsiasi allergia al momento della prenotazione e di ricordarcelo all'arrivo. Disponiamo di linee di preparazione separate per i casi più severi."
+    },
+    {
+      "domanda": "C'è un dress code?",
+      "risposta": "Non abbiamo un dress code formale. Siamo un ristorante casual-fine dining: smart casual è l'abbigliamento più apprezzato per la cena. Per i tavoli vista mare in estate è consigliato un abbigliamento consono all'ambiente. Vietato l'accesso a torso nudo o con calzature da spiaggia."
+    },
+    {
+      "domanda": "Potete ospitare eventi privati?",
+      "risposta": "Sì, disponiamo di una sala privata da 30 posti per cene aziendali, compleanni, anniversari, battesimi e cerimonie. Il menu eventi è personalizzabile con anticipo di 7 giorni. Contattare Roberto, il nostro maitre, via email a prenotazioni@trattoriadelmare.it per un preventivo."
+    },
+    {
+      "domanda": "Accettate carte di credito?",
+      "risposta": "Accettiamo tutte le principali carte (Visa, Mastercard, American Express), bancomat, Apple Pay, Google Pay e Satispay. Il pagamento in contanti è sempre gradito. Non accettiamo assegni."
+    },
+    {
+      "domanda": "I tavoli all'aperto hanno vista sul mare?",
+      "risposta": "Sì, 30 dei nostri posti sono ai tavoli sul lungomare con vista diretta sul Mar Adriatico. In estate i tavoli esterni sono molto richiesti — consigliamo di prenotare con almeno 3-4 giorni di anticipo per garantirsi un posto vista mare. In caso di maltempo attrezziamo una tensostruttura coperta."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "team": [
+    {
+      "id": 1,
+      "nome": "Carlo Marini",
+      "ruolo": "Chef Executive e Fondatore",
+      "bio": "Formatosi alla scuola di cucina Luigi Veronelli, Carlo apre la Trattoria del Mare nel 1995 dopo esperienze in ristoranti stellati di Genova e Venezia. La sua filosofia: il pesce dell'Adriatico non ha bisogno di artifici, solo rispetto e tecnica.",
+      "anniEsperienza": 31,
+      "image": "/assets/img/team/carlo.jpg",
+      "specialita": ["Cottura a bassa temperatura", "Cucina pugliese di mare", "Crudi e marinature"]
+    },
+    {
+      "id": 2,
+      "nome": "Davide Marini",
+      "ruolo": "Sous Chef",
+      "bio": "Figlio di Carlo, formato all'ALMA — Scuola Internazionale di Cucina Italiana. Porta in cucina tecniche moderne (roner, abbattitore, estrazione a freddo) rispettando la tradizione familiare.",
+      "anniEsperienza": 8,
+      "image": "/assets/img/team/davide.jpg",
+      "specialita": ["Cucina tecnica moderna", "Pasta fresca", "Fermentazioni e marinature"]
+    },
+    {
+      "id": 3,
+      "nome": "Giulia Ferrante",
+      "ruolo": "Sommelier AIS",
+      "bio": "Sommelier diplomata AIS con specializzazione in vini del Sud Italia e abbinamento cibo-vino di mare. Cura una carta di 80 etichette con focus su Puglia, Campania e Sicilia. Premio Miglior Sommelier Puglia 2023.",
+      "anniEsperienza": 12,
+      "image": "/assets/img/team/giulia.jpg",
+      "specialita": ["Vini bianchi Sud Italia", "Abbinamento pesce", "Degustazione guidata"]
+    },
+    {
+      "id": 4,
+      "nome": "Roberto Cassano",
+      "ruolo": "Maitre di Sala",
+      "bio": "Vent'anni di sala nei migliori ristoranti del lungomare barese. Roberto coordina un team di 6 persone garantendo un servizio preciso e discreto. Gestisce anche gli eventi privati e i menu degustazione su misura.",
+      "anniEsperienza": 20,
+      "image": "/assets/img/team/roberto.jpg",
+      "specialita": ["Gestione sala", "Cerimonie ed eventi", "Accoglienza VIP"]
+    },
+    {
+      "id": 5,
+      "nome": "Tania Russo",
+      "ruolo": "Pastry Chef",
+      "bio": "Pasticcera pugliese con formazione artigianale a Lecce e stage a Parigi. Propone dessert che reinterpretano i dolci della tradizione meridionale con tecnica moderna. Produce tutta la pasticceria in-house ogni mattina.",
+      "anniEsperienza": 9,
+      "image": "/assets/img/team/tania.jpg",
+      "specialita": ["Dolci tradizionali pugliesi", "Gelato artigianale", "Pasticceria fine dining"]
+    }
+  ]
+}

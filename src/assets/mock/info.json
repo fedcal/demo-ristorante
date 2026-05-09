@@ -1,0 +1,54 @@
+{
+  "ragioneSociale": "Trattoria del Mare S.r.l.",
+  "nomeCommerciale": "Trattoria del Mare — Pesce fresco a Bari",
+  "tagline": "Pesce fresco del Mar Adriatico, dal 1995",
+  "indirizzo": {
+    "via": "Lungomare Nazario Sauro 28",
+    "citta": "Bari",
+    "provincia": "BA",
+    "cap": "70121",
+    "regione": "Puglia",
+    "paese": "Italia",
+    "lat": 41.1248,
+    "lng": 16.8680
+  },
+  "contatti": {
+    "telefono": "+39 080 555 9876",
+    "whatsapp": "+39 347 9876 543",
+    "email": "prenotazioni@trattoriadelmare.it",
+    "social": {
+      "instagram": "https://instagram.com/trattoriadelmare_demo",
+      "facebook": "https://facebook.com/trattoriadelmare_demo"
+    }
+  },
+  "orari": {
+    "lunedi": "Chiuso",
+    "martedi": "12:30 – 15:00 / 19:30 – 23:00",
+    "mercoledi": "12:30 – 15:00 / 19:30 – 23:00",
+    "giovedi": "12:30 – 15:00 / 19:30 – 23:00",
+    "venerdi": "12:30 – 15:00 / 19:30 – 23:30",
+    "sabato": "12:30 – 15:00 / 19:30 – 23:30",
+    "domenica": "12:30 – 15:30 / 19:30 – 22:30"
+  },
+  "servizi": {
+    "consegnaDomicilio": false,
+    "asportoOnline": false,
+    "tavoliEsterni": true,
+    "tavoliEsteriVistamare": true,
+    "parcheggioConvenzionato": true,
+    "accessibileDisabili": true,
+    "petFriendly": false,
+    "wifiGratuito": true,
+    "ariaCondizionata": true,
+    "postiAlInterno": 55,
+    "postiAiTavoliEsterni": 30,
+    "postiTotali": 85,
+    "salaPrivataEventi": true,
+    "capSalaPrivata": 30
+  },
+  "metaSeo": {
+    "title": "Trattoria del Mare — Pesce fresco a Bari dal 1995",
+    "description": "Ristorante di pesce sul lungomare di Bari. Pesce fresco dell'Adriatico ogni giorno, pasta fatta in casa, vini pugliesi selezionati. Prenotazioni: +39 080 555 9876.",
+    "keywords": ["ristorante pesce bari", "trattoria lungomare bari", "pesce fresco bari", "ristorante pugliese bari", "orata branzino bari"]
+  }
+}

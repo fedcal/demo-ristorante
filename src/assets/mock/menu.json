@@ -1,0 +1,473 @@
+{
+  "categorie": [
+    { "id": "antipasti", "nome": "Antipasti", "ordine": 1 },
+    { "id": "primi", "nome": "Primi Piatti", "ordine": 2 },
+    { "id": "secondi", "nome": "Secondi di Pesce", "ordine": 3 },
+    { "id": "contorni", "nome": "Contorni", "ordine": 4 },
+    { "id": "dolci", "nome": "Dolci", "ordine": 5 }
+  ],
+  "piatti": [
+    {
+      "id": 1,
+      "categoria": "antipasti",
+      "nome": "Crudo di Gambero Rosso di Gallipoli",
+      "descrizione": "Gambero rosso crudo su letto di sale marino, lime, pepe rosa, olio EVO Puglia IGP",
+      "prezzo": 22.0,
+      "premium": true,
+      "allergeni": ["crostacei"]
+    },
+    {
+      "id": 2,
+      "categoria": "antipasti",
+      "nome": "Polpo alla Brace",
+      "descrizione": "Polpo verace dell'Adriatico grigliato su crema di patate affumicate, pomodorini confit, origano selvatico",
+      "prezzo": 18.0,
+      "premium": false,
+      "allergeni": ["molluschi"]
+    },
+    {
+      "id": 3,
+      "categoria": "antipasti",
+      "nome": "Alici Marinate all'Acetosella",
+      "descrizione": "Alici fresche del Golfo marinate 24h, acetosella, cipolla rossa di Acquaviva, olio EVO",
+      "prezzo": 14.0,
+      "premium": false,
+      "allergeni": ["pesce"]
+    },
+    {
+      "id": 4,
+      "categoria": "antipasti",
+      "nome": "Carpaccio di Ricciola",
+      "descrizione": "Ricciola selvatica in carpaccio ultrasottile, salsa di agrumi, sedano croccante, bottarga di muggine",
+      "prezzo": 19.0,
+      "premium": true,
+      "allergeni": ["pesce"]
+    },
+    {
+      "id": 5,
+      "categoria": "antipasti",
+      "nome": "Cozze Pelose al Vino Bianco",
+      "descrizione": "Cozze pelose del litorale barese cotte al vapore, Fiano di Avellino, aglio, prezzemolo, crostino di pane di Altamura",
+      "prezzo": 12.0,
+      "premium": false,
+      "allergeni": ["molluschi", "glutine"]
+    },
+    {
+      "id": 6,
+      "categoria": "antipasti",
+      "nome": "Tartare di Tonno Rosso",
+      "descrizione": "Tonno rosso del Mediterraneo battuto al coltello, avocado, sesamo tostato, zenzero fresco, salsa ponzu leggera",
+      "prezzo": 20.0,
+      "premium": true,
+      "allergeni": ["pesce", "sesamo"]
+    },
+    {
+      "id": 7,
+      "categoria": "antipasti",
+      "nome": "Scampi in Saor",
+      "descrizione": "Scampi freschi marinati alla veneziana con cipolla, aceto di vino bianco, uvetta, pinoli",
+      "prezzo": 24.0,
+      "premium": true,
+      "allergeni": ["crostacei", "fruttasecca"]
+    },
+    {
+      "id": 8,
+      "categoria": "antipasti",
+      "nome": "Bruschetta di Pesce Azzurro",
+      "descrizione": "Pane di Altamura tostato, sgombro marinato, pomodoro datterino, capperi di Pantelleria, olio piccante",
+      "prezzo": 13.0,
+      "premium": false,
+      "allergeni": ["pesce", "glutine"]
+    },
+    {
+      "id": 9,
+      "categoria": "primi",
+      "nome": "Orecchiette ai Frutti di Mare",
+      "descrizione": "Pasta fresca di semola di grano duro, cozze, vongole, lupini, cannolicchi, pomodorino giallo, basilico",
+      "prezzo": 22.0,
+      "premium": false,
+      "allergeni": ["molluschi", "glutine"]
+    },
+    {
+      "id": 10,
+      "categoria": "primi",
+      "nome": "Spaghetto alle Vongole Veraci",
+      "descrizione": "Vongole veraci Adriatiche, spaghetto di Gragnano IGP, aglio, olio EVO, prezzemolo. In bianco o con pomodorino.",
+      "prezzo": 20.0,
+      "premium": false,
+      "allergeni": ["molluschi", "glutine"]
+    },
+    {
+      "id": 11,
+      "categoria": "primi",
+      "nome": "Linguine all'Astice Blu",
+      "descrizione": "Astice blu dell'Adriatico, linguine di Gragnano, pomodoro San Marzano, prezzemolo, aglio, vino bianco secco",
+      "prezzo": 34.0,
+      "premium": true,
+      "allergeni": ["crostacei", "glutine"]
+    },
+    {
+      "id": 12,
+      "categoria": "primi",
+      "nome": "Risotto alla Pescatora",
+      "descrizione": "Carnaroli Riserva, misto pesce (gamberi, calamari, scampi), bisque di crostacei, burro mantecato, dragoncello",
+      "prezzo": 26.0,
+      "premium": true,
+      "allergeni": ["crostacei", "molluschi", "latte"]
+    },
+    {
+      "id": 13,
+      "categoria": "primi",
+      "nome": "Tagliolini al Nero di Seppia",
+      "descrizione": "Pasta fresca nera, seppie fresche del giorno, aglio, prezzemolo, pangrattato tostato all'olio",
+      "prezzo": 21.0,
+      "premium": false,
+      "allergeni": ["molluschi", "glutine"]
+    },
+    {
+      "id": 14,
+      "categoria": "primi",
+      "nome": "Mezze Maniche con Bottarga e Ricci",
+      "descrizione": "Bottarga di muggine grattugiata, ricci di mare, olio EVO, aglio, scorza di limone Amalfi",
+      "prezzo": 28.0,
+      "premium": true,
+      "allergeni": ["pesce", "glutine"]
+    },
+    {
+      "id": 15,
+      "categoria": "primi",
+      "nome": "Busiate al Pesto di Pistacchio e Gamberi",
+      "descrizione": "Pasta trafilata al bronzo, gamberi rossi saltati, pesto di pistacchio di Bronte DOP, pomodorini secchi",
+      "prezzo": 24.0,
+      "premium": true,
+      "allergeni": ["crostacei", "glutine", "fruttasecca"]
+    },
+    {
+      "id": 16,
+      "categoria": "primi",
+      "nome": "Zuppa di Pesce Adriatica",
+      "descrizione": "Zuppa tradizionale con scorfano, gallinella, cozze, vongole, crostino di pane casereccio",
+      "prezzo": 25.0,
+      "premium": false,
+      "allergeni": ["pesce", "molluschi", "glutine"]
+    },
+    {
+      "id": 17,
+      "categoria": "primi",
+      "nome": "Gnocchi di Patate al Ragù di Totano",
+      "descrizione": "Gnocchi fatti a mano, ragù di totano lento 3 ore, pomodoro San Marzano, alloro, peperoncino",
+      "prezzo": 19.0,
+      "premium": false,
+      "allergeni": ["molluschi", "glutine"]
+    },
+    {
+      "id": 18,
+      "categoria": "secondi",
+      "nome": "Orata al Sale Grossa",
+      "descrizione": "Orata intera del Mar Adriatico (500g) cotta sotto crosta di sale grosso aromatico, erbe fresche, limone",
+      "prezzo": 32.0,
+      "premium": true,
+      "allergeni": ["pesce"]
+    },
+    {
+      "id": 19,
+      "categoria": "secondi",
+      "nome": "Branzino all'Acqua Pazza",
+      "descrizione": "Branzino intero in acqua pazza con pomodorini, aglio, olive verdi, capperi, vino bianco, prezzemolo",
+      "prezzo": 30.0,
+      "premium": false,
+      "allergeni": ["pesce"]
+    },
+    {
+      "id": 20,
+      "categoria": "secondi",
+      "nome": "Fritto Misto all'Adriatica",
+      "descrizione": "Calamari, gamberi, acciughe, alici, frittura dorata croccante, limone fresco, maionese artigianale",
+      "prezzo": 28.0,
+      "premium": false,
+      "allergeni": ["pesce", "crostacei", "molluschi", "glutine", "uova"]
+    },
+    {
+      "id": 21,
+      "categoria": "secondi",
+      "nome": "Grigliata Mista di Mare",
+      "descrizione": "Gamberoni, calamari, trancio di salmone, spada, cozze alla griglia, olio EVO, limone, aglio fresco",
+      "prezzo": 35.0,
+      "premium": true,
+      "allergeni": ["pesce", "crostacei", "molluschi"]
+    },
+    {
+      "id": 22,
+      "categoria": "secondi",
+      "nome": "Rombo al Forno con Patate",
+      "descrizione": "Rombo intero (600g) arrosto su letto di patate, pomodorini, olive taggiasche, origano, vino bianco",
+      "prezzo": 34.0,
+      "premium": true,
+      "allergeni": ["pesce"]
+    },
+    {
+      "id": 23,
+      "categoria": "secondi",
+      "nome": "Seppie in Umido alla Barese",
+      "descrizione": "Seppioline fresche in umido con pisellini, pomodorino, vino bianco secco, prezzemolo. Ricetta tradizionale.",
+      "prezzo": 22.0,
+      "premium": false,
+      "allergeni": ["molluschi"]
+    },
+    {
+      "id": 24,
+      "categoria": "secondi",
+      "nome": "Polpo Lucano alla Piastra",
+      "descrizione": "Polpo intero marinato alle erbe, cotto a bassa temperatura 3h e poi alla piastra, riduzione di agrumi",
+      "prezzo": 26.0,
+      "premium": false,
+      "allergeni": ["molluschi"]
+    },
+    {
+      "id": 25,
+      "categoria": "secondi",
+      "nome": "Aragosta in Bellavista",
+      "descrizione": "Aragosta fresca (500g) scottata e servita su insalata di finocchi, agrumi, maionese artigianale, caviale di aringa",
+      "prezzo": 65.0,
+      "premium": true,
+      "allergeni": ["crostacei", "uova"]
+    },
+    {
+      "id": 26,
+      "categoria": "contorni",
+      "nome": "Verdure di Stagione alla Griglia",
+      "descrizione": "Zucchine, melanzane, peperoni, olio EVO, erbe aromatiche",
+      "prezzo": 8.0,
+      "premium": false,
+      "allergeni": []
+    },
+    {
+      "id": 27,
+      "categoria": "contorni",
+      "nome": "Insalata di Rucola e Pomodorini",
+      "descrizione": "Rucola selvatica, datterini gialli e rossi, grana padano a scaglie, olio EVO, aceto balsamico di Modena IGP",
+      "prezzo": 9.0,
+      "premium": false,
+      "allergeni": ["latte"]
+    },
+    {
+      "id": 28,
+      "categoria": "contorni",
+      "nome": "Patate al Forno con Rosmarino",
+      "descrizione": "Patate di Avezzano al forno, aglio in camicia, rosmarino, olio EVO pugliese",
+      "prezzo": 7.0,
+      "premium": false,
+      "allergeni": []
+    },
+    {
+      "id": 29,
+      "categoria": "contorni",
+      "nome": "Cicoria Ripassata in Padella",
+      "descrizione": "Cicoria selvatica di campo ripassata con aglio e peperoncino, olio EVO. Contorno tradizionale pugliese.",
+      "prezzo": 8.0,
+      "premium": false,
+      "allergeni": []
+    },
+    {
+      "id": 30,
+      "categoria": "contorni",
+      "nome": "Fagiolini di Fava con Pane di Altamura",
+      "descrizione": "Fave fresche saltate, cipolla novella, olio EVO, crostino di pane di Altamura DOP tostato",
+      "prezzo": 9.0,
+      "premium": false,
+      "allergeni": ["glutine"]
+    },
+    {
+      "id": 31,
+      "categoria": "dolci",
+      "nome": "Tiramisù del Mare",
+      "descrizione": "Variazione creativa con biscotto savoiardo, crema al limoncello, coulis di frutti rossi, mascarpone",
+      "prezzo": 10.0,
+      "premium": false,
+      "allergeni": ["uova", "latte", "glutine"]
+    },
+    {
+      "id": 32,
+      "categoria": "dolci",
+      "nome": "Gelato Artigianale ai Fichi Pugliesi",
+      "descrizione": "Gelato artigianale al fico secco di Calabria e mandorla tostata, coulis di fico fresco di stagione",
+      "prezzo": 8.0,
+      "premium": false,
+      "allergeni": ["latte", "fruttasecca"]
+    },
+    {
+      "id": 33,
+      "categoria": "dolci",
+      "nome": "Pastiera Napoletana",
+      "descrizione": "Pastiera classica con grano cotto, ricotta, acqua di fiori d'arancio, cannella. Produzione settimanale.",
+      "prezzo": 9.0,
+      "premium": false,
+      "allergeni": ["glutine", "uova", "latte"]
+    },
+    {
+      "id": 34,
+      "categoria": "dolci",
+      "nome": "Tortino al Cioccolato Fondente",
+      "descrizione": "Tortino caldo con cuore morbido, cioccolato 72% Valrhona, gelato alla vaniglia Bourbon",
+      "prezzo": 11.0,
+      "premium": true,
+      "allergeni": ["glutine", "uova", "latte", "soia"]
+    },
+    {
+      "id": 35,
+      "categoria": "dolci",
+      "nome": "Sorbetto al Limone di Amalfi",
+      "descrizione": "Sorbetto artigianale al limone IGP di Amalfi, foglia di menta, scorza candita. Senza latte.",
+      "prezzo": 7.0,
+      "premium": false,
+      "allergeni": []
+    }
+  ],
+  "menuDegustazione": [
+    {
+      "id": "mare",
+      "nome": "Menu Degustazione del Mare",
+      "descrizione": "5 portate — antipasto, primo, secondo, contorno e dolce — con abbinamento vini a cura del sommelier",
+      "prezzo": 75.0,
+      "prezzoConVini": 105.0,
+      "portate": 5,
+      "durata": "circa 2h",
+      "minimoPersone": 2,
+      "note": "Disponibile a cena, prenotazione obbligatoria 24h prima"
+    },
+    {
+      "id": "terra_e_mare",
+      "nome": "Menu Terra e Mare",
+      "descrizione": "4 portate con ingredienti del territorio pugliese abbinati al pesce fresco del giorno",
+      "prezzo": 55.0,
+      "prezzoConVini": 80.0,
+      "portate": 4,
+      "durata": "circa 1h45",
+      "minimoPersone": 2,
+      "note": "Disponibile a pranzo e cena"
+    },
+    {
+      "id": "pranzo_veloce",
+      "nome": "Pranzo del Lungomare",
+      "descrizione": "Antipasto del giorno + primo + acqua + caffè",
+      "prezzo": 28.0,
+      "prezzoConVini": 35.0,
+      "portate": 2,
+      "durata": "circa 1h",
+      "minimoPersone": 1,
+      "note": "Solo a pranzo, mar-ven esclusi festivi"
+    }
+  ],
+  "vini": [
+    {
+      "id": 1,
+      "nome": "Greco di Tufo DOCG",
+      "produttore": "Feudi di San Gregorio",
+      "annata": 2023,
+      "regione": "Campania",
+      "tipologia": "Bianco",
+      "abbinamento": "Antipasti di pesce, crudità, ostriche",
+      "prezzoBottiglia": 32.0,
+      "prezzoCalice": 9.0
+    },
+    {
+      "id": 2,
+      "nome": "Verdeca Puglia IGT",
+      "produttore": "Tormaresca",
+      "annata": 2023,
+      "regione": "Puglia",
+      "tipologia": "Bianco",
+      "abbinamento": "Crudi di mare, alici marinate, frittura",
+      "prezzoBottiglia": 24.0,
+      "prezzoCalice": 7.0
+    },
+    {
+      "id": 3,
+      "nome": "Falanghina del Sannio DOC",
+      "produttore": "Mustilli",
+      "annata": 2022,
+      "regione": "Campania",
+      "tipologia": "Bianco",
+      "abbinamento": "Orecchiette ai frutti di mare, spaghetti alle vongole",
+      "prezzoBottiglia": 28.0,
+      "prezzoCalice": 8.0
+    },
+    {
+      "id": 4,
+      "nome": "Fiano di Avellino DOCG",
+      "produttore": "Mastroberardino",
+      "annata": 2022,
+      "regione": "Campania",
+      "tipologia": "Bianco strutturato",
+      "abbinamento": "Risotto alla pescatora, secondi di pesce importanti",
+      "prezzoBottiglia": 38.0,
+      "prezzoCalice": 11.0
+    },
+    {
+      "id": 5,
+      "nome": "Minutolo Murgia IGT",
+      "produttore": "Rivera",
+      "annata": 2023,
+      "regione": "Puglia",
+      "tipologia": "Bianco aromatico",
+      "abbinamento": "Gamberi rossi crudi, carpaccio di ricciola",
+      "prezzoBottiglia": 29.0,
+      "prezzoCalice": 8.0
+    },
+    {
+      "id": 6,
+      "nome": "Negramaro Rosato IGT",
+      "produttore": "Cantele",
+      "annata": 2023,
+      "regione": "Puglia",
+      "tipologia": "Rosato",
+      "abbinamento": "Polpo alla brace, grigliata mista, frittura leggera",
+      "prezzoBottiglia": 22.0,
+      "prezzoCalice": 6.5
+    },
+    {
+      "id": 7,
+      "nome": "Primitivo di Manduria DOC",
+      "produttore": "Felline",
+      "annata": 2021,
+      "regione": "Puglia",
+      "tipologia": "Rosso",
+      "abbinamento": "Polpo in umido, zuppa di pesce, seppie alla barese",
+      "prezzoBottiglia": 30.0,
+      "prezzoCalice": 8.5
+    },
+    {
+      "id": 8,
+      "nome": "Prosecco di Valdobbiadene DOCG",
+      "produttore": "Bisol",
+      "annata": 2023,
+      "regione": "Veneto",
+      "tipologia": "Spumante",
+      "abbinamento": "Aperitivo, antipasti leggeri, crudi di mare",
+      "prezzoBottiglia": 28.0,
+      "prezzoCalice": 7.5
+    },
+    {
+      "id": 9,
+      "nome": "Vermentino di Gallura DOCG",
+      "produttore": "Capichera",
+      "annata": 2022,
+      "regione": "Sardegna",
+      "tipologia": "Bianco",
+      "abbinamento": "Astice, aragosta, linguine ai crostacei",
+      "prezzoBottiglia": 45.0,
+      "prezzoCalice": 13.0
+    },
+    {
+      "id": 10,
+      "nome": "Etna Bianco DOC",
+      "produttore": "Benanti",
+      "annata": 2022,
+      "regione": "Sicilia",
+      "tipologia": "Bianco vulcanico",
+      "abbinamento": "Orata al sale, branzino, pesci interi al forno",
+      "prezzoBottiglia": 42.0,
+      "prezzoCalice": 12.0
+    }
+  ]
+}
