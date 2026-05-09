@@ -3,14 +3,14 @@
 Template **Angular 21 SSR** open-source per sito vetrina **Ristorante** (PMI italiane).
 
 [![Demo live](https://img.shields.io/badge/demo-live-brightgreen)](https://ristorante.demo.federicocalo.dev)
-[![Docs](https://img.shields.io/badge/docs-VitePress-blue)](https://fedcal.github.io/federico-demo-ristorante/)
+[![Docs](https://img.shields.io/badge/docs-VitePress-blue)](https://fedcal.github.io/demo-ristorante/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## Quick start
 
 ```bash
-git clone https://github.com/fedcal/federico-demo-ristorante.git
-cd federico-demo-ristorante
+git clone https://github.com/fedcal/demo-ristorante.git
+cd demo-ristorante
 npm install
 npm start
 ```
@@ -36,7 +36,7 @@ npm run serve:ssr:ristorante
 
 ## Documentazione completa
 
-→ https://fedcal.github.io/federico-demo-ristorante/
+→ https://fedcal.github.io/demo-ristorante/
 
 ## Hub demos Federico
 

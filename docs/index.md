@@ -11,27 +11,27 @@ hero:
       link: https://ristorante.demo.federicocalo.dev
     - theme: alt
       text: Source code
-      link: https://github.com/fedcal/federico-demo-ristorante
+      link: https://github.com/fedcal/demo-ristorante
 
 features:
   - icon: 🅰️
     title: Angular 21 SSR
-    details: Server-Side Rendering nativo con `outputMode: server` e prerender route statiche per SEO ottimale.
+    details: "Server-Side Rendering nativo con `outputMode: server` e prerender route statiche per SEO ottimale."
   - icon: 📊
     title: Mock data realistici
-    details: Dati Italia 2026 (menu, listini, orari, prezzi medi) curati per il verticale Ristorante.
+    details: "Dati Italia 2026 (menu, listini, orari, prezzi medi) curati per il verticale Ristorante."
   - icon: 🚀
     title: Deploy automatico
-    details: Vercel per il sito demo (SSR runtime) + GitHub Pages per la documentazione (VitePress).
+    details: "Vercel per il sito demo (SSR runtime) + GitHub Pages per la documentazione (VitePress)."
   - icon: 🔍
     title: SEO ready
-    details: JSON-LD schema.org, meta tag dinamici, Open Graph, sitemap auto-generata.
+    details: "JSON-LD schema.org, meta tag dinamici, Open Graph, sitemap auto-generata."
   - icon: ⚡
     title: Performance
-    details: Lighthouse target ≥90 SEO + ≥85 Performance + ≥95 Best Practices.
+    details: "Lighthouse target ≥90 SEO + ≥85 Performance + ≥95 Best Practices."
   - icon: 🎨
     title: Customizable
-    details: Design tokens CSS Custom Properties, light theme stile GitHub Primer.
+    details: "Design tokens CSS Custom Properties, light theme stile GitHub Primer."
 ---
 
 ## Introduzione
@@ -70,8 +70,8 @@ Il mercato italiano delle PMI per **Ristorante** ha caratteristiche specifiche:
 ## Quick start
 
 ```bash
-git clone https://github.com/fedcal/federico-demo-ristorante.git
-cd federico-demo-ristorante
+git clone https://github.com/fedcal/demo-ristorante.git
+cd demo-ristorante
 npm install
 npm start
 # → http://localhost:4200
@@ -88,4 +88,4 @@ npm run serve:ssr:ristorante
 
 - [federicocalo.dev](https://federicocalo.dev) — Portfolio principale
 - [federicocalo.dev/demo](https://federicocalo.dev/demo) — Hub demos completo
-- [GitHub repo](https://github.com/fedcal/federico-demo-ristorante)
+- [GitHub repo](https://github.com/fedcal/demo-ristorante)
